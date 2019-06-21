@@ -1,0 +1,12 @@
+@import 'mixins/facefont';
+
+
+@include font-face(ByekanRegular, "facefont/yekanwebregular" ,700 ,null, woff );
+
+@include font-face(IRANSansWeb_Bold, "facefont/IRANSansWeb(FaNum)_Bold" ,700 ,normal,eot woff2 woff ttf);
+@include font-face(IRANSansWeb_Medium, "facefont/IRANSansWeb(FaNum)_Medium" ,300 ,normal,eot woff2 woff ttf);
+@include font-face(IRANSansWeb_Light, "facefont/IRANSansWeb(FaNum)_Light" ,300 ,normal,eot woff2 woff ttf);
+
+// @include font-face(Vazir, "../../../node_modules/vazir-font/distIRANSansWeb_Light" ,300 ,normal,eot woff2 woff ttf);
+
+@import "../../../node_modules/vazir-font/dist/font-face.css";

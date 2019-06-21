@@ -1,0 +1,19 @@
+
+.k-window-title{
+  font-family: Vazir !important;
+  font-size: 0.8em;
+}
+
+.k-rtl .k-dialog .k-dialog-buttongroup.k-dialog-button-layout-stretched .k-button, .k-rtl.k-dialog .k-dialog-buttongroup.k-dialog-button-layout-stretched .k-button {
+  font-family: Vazir !important
+}
+.k-checkbox:indeterminate + .k-checkbox-label::after {
+  content: "";
+  right: -5px;
+  top: 8px;
+  width: 11px;
+  height: 11px;
+}
+.k-list-container.k-popup-dropdowntree .k-treeview {
+  padding-top: 4px;
+}

@@ -1,0 +1,185 @@
+@import 'fonts';
+@import "kendo";
+
+@media print {}
+
+body {
+    background-color: #f0f2f5;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+//Fonts
+.th {
+    font-family: tahoma !important;
+}
+
+.yekan {
+    font-family: "ByekanRegular" !important;
+}
+
+.sans {
+    font-family: 'IRANSansWeb_Bold' !important;
+}
+
+.sansm {
+    font-family: 'IRANSansWeb_Medium' !important;
+}
+
+.sansl {
+    font-family: 'IRANSansWeb_Light' !important;
+}
+
+.vazir {
+    font-family: Vazir !important;
+    font-weight: 700;
+}
+
+.vazirm {
+    font-family: Vazir !important;
+    font-weight: 500;
+}
+
+.vazirl {
+    font-family: Vazir !important;
+}
+
+.f10 {
+    font-size: 10px !important;
+}
+
+.f11 {
+    font-size: 11px !important;
+}
+
+.f12 {
+    font-size: 12px !important;
+}
+
+.f13 {
+    font-size: 13px !important;
+}
+
+.f14 {
+    font-size: 14px !important;
+}
+
+.f22 {
+    font-size: 19px !important;
+}
+
+.f26 {
+    font-size: 19px !important;
+}
+
+//Floats
+.fr {
+    float: right !important;
+}
+
+.fl {
+    float: left !important;
+}
+
+//Paddings And Margins
+.mt0 {
+    margin-top: 0px !important;
+}
+
+.mt5 {
+    margin-top: 5px !important;
+}
+
+.mt10 {
+    margin-top: 10px !important;
+}
+
+.mt15 {
+    margin-top: 15px !important;
+}
+
+.mt20 {
+    margin-top: 20px !important;
+}
+
+.mr0 {
+    margin-right: 5px !important;
+}
+
+.mr5 {
+    margin-right: 5px !important;
+}
+
+.mr10 {
+    margin-right: 10px !important;
+}
+
+.mr20 {
+    margin-right: 20px !important;
+}
+
+.ml5 {
+    margin-right: 5px !important;
+}
+
+.pt0 {
+    padding-top: 0px !important;
+}
+
+.vl {
+    vertical-align: middle;
+}
+
+//Colors
+.g1 {
+    color: #008623;
+}
+
+.r0 {
+    color: red;
+}
+
+.r1 {
+    color: #d9534f;
+}
+
+.b0 {
+    color: black;
+}
+
+.b1 {
+    color: #1678c2;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    //transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave-to
+
+/* .fade-leave-active below version 2.1.8 */
+    {
+    transition: opacity 0.7s;
+    opacity: 0;
+}
+
+.uliList.celled.list>.item,
+.uliList.celled.list>.list {
+    padding-top: 1em !important;
+    border: 1px solid rgba(34, 36, 38, .15) !important;
+    padding-right: 1em;
+}
+
+.vpd-actions button {
+    font-family: Vazir !important;
+    min-width: 68px !important;
+}
+
+.ant-notification {
+    z-index: 2147483647 !important;
+}
